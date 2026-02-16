@@ -26,8 +26,8 @@ e.g., a recognizer of a Regular Language.
 
 
 ```python
-from dfa_sampler import gen_reach_avoid, gen_mutated_reach_avoid
+from dfa_sampler import gen_reach_avoid, gen_mutated_sequential_reach_avoid
 
 dfas1 = gen_reach_avoid(n_tokens=3)
-dfas2 = gen_mutated_reach_avoid(n_tokens=12)
+dfas2 = gen_mutated_sequential_reach_avoid(n_tokens=12)
 ```
